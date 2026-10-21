@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id" style="background-color:#0A0A0C;color-scheme:dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Li — Blog</title>
+    <style>html,body{background-color:#0A0A0C}</style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo"><span>L</span>i</a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/skills">Skills</a>
+            <a href="/projects">Projects</a>
+            <a href="/blog" class="active">Blog</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h3 class="section-title">Catatan</h3>
+            <div class="blog-grid stagger">
+                <div class="blog-card">
+                    <h4>Apa Itu Data Science?</h4>
+                    <p>Data Science menggabungkan pemrograman, statistika, dan pemahaman data untuk menemukan pola serta menghasilkan informasi yang berguna.</p>
+                    <span class="tag">DATA SCIENCE</span>
+                </div>
+                <div class="blog-card">
+                    <h4>Belajar Python untuk Mengolah Data</h4>
+                    <p>Python banyak digunakan untuk mengolah data karena sintaksnya mudah dipahami dan memiliki pustaka seperti Pandas untuk membantu analisis.</p>
+                    <span class="tag">PYTHON</span>
+                </div>
+                <div class="blog-card">
+                    <h4>Mengapa Data Perlu Divisualisasikan?</h4>
+                    <p>Grafik membantu menyajikan data agar pola dan perbandingan lebih mudah dipahami.</p>
+                    <span class="tag">VISUALISASI</span>
+                </div>
+                <div class="blog-card">
+                    <h4>Langkah Awal Menganalisis Data</h4>
+                    <p>Analisis dimulai dengan memahami tujuan, memeriksa kualitas data, lalu mencari pola yang dapat menjawab pertanyaan.</p>
+                    <span class="tag">ANALISIS DATA</span>
+                </div>
+                <div class="blog-card">
+                    <h4>Pengalaman Pertama Belajar Data Science</h4>
+                    <p>Saya mulai mengenal Data Science dan ingin belajar bagaimana data dapat digunakan untuk memahami masalah serta membantu mengambil keputusan.</p>
+                    <span class="tag">CATATAN</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; Li
+    </footer>
+</body>
+</html>
